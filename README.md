@@ -113,8 +113,13 @@ python main.py
 This project uses the Dlib facial landmark model:
 
 `shape_predictor_68_face_landmarks.dat`
+The model file is approximately **95 MB**. Because of its size, it is recommended **not** to store it directly in the GitHub repository.
 
-If you remove it from the repository because of its size, mention in this section where users can download it and where to place it.
+Instead:
+
+1. Download `shape_predictor_68_face_landmarks.dat` from the official Dlib model repository.
+2. Place the downloaded file inside the project folder (or a `models/` folder).
+3. Update the file path in `main.py` if you move it into a different directory.
 
 ---
 
