@@ -90,23 +90,7 @@ pip install -r requirements.txt
 python main.py
 ```
 
----
 
-## 📸 Screenshots
-
-### Driver Monitoring System
-
-(Add screenshot here)
-
-### Face Detection
-
-(Add screenshot here)
-
-### Drowsiness Alert
-
-(Add screenshot here)
-
----
 
 ## ⚠️ Model File
 
